@@ -11,14 +11,11 @@
             "id": "ce103d668ab4bca7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "知识碎片/未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "create a link.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识碎片/未命名.canvas",
+                "file": "create a link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识碎片/未命名.canvas",
+                "file": "create a link.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识碎片/未命名.canvas"
+                "file": "create a link.md"
               }
             }
           }
@@ -149,15 +146,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "63e53a91b4ef1269",
+  "active": "ce103d668ab4bca7",
   "lastOpenFiles": [
+    "知识碎片/未命名.canvas",
+    "create a link.md",
     "未命名.canvas",
     "未命名.md",
-    "知识碎片/未命名.canvas",
     "未命名",
     "知识碎片/未命名.md",
     "Welcome.md",
-    "create a link.md",
     "知识碎片",
     "make.md"
   ]
