@@ -18,6 +18,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8db01ce0fb5003e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识碎片/服务端渲染（SSR）.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "42691ab10362d004",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6f361f278d0be4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识碎片/服务端渲染（SSR）.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -85,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "create a link.md",
+                "file": "知识碎片/服务端渲染（SSR）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "create a link.md",
+                "file": "知识碎片/服务端渲染（SSR）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "create a link.md"
+                "file": "知识碎片/服务端渲染（SSR）.md"
               }
             }
           }
@@ -146,14 +177,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ce103d668ab4bca7",
+  "active": "8db01ce0fb5003e4",
   "lastOpenFiles": [
-    "知识碎片/未命名.canvas",
-    "create a link.md",
-    "未命名.canvas",
+    "知识碎片/未命名 1.md",
     "未命名.md",
+    "create a link.md",
+    "知识碎片/未命名.canvas",
+    "未命名.canvas",
     "未命名",
-    "知识碎片/未命名.md",
+    "知识碎片/服务端渲染（SSR）.md",
     "Welcome.md",
     "知识碎片",
     "make.md"
