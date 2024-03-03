@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识碎片/事件循环.md",
+                "file": "知识碎片/浏览器渲染.md",
                 "mode": "source",
                 "source": true
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "d657770fec12396c",
+        "id": "506f4c6f32e9738a",
         "type": "tabs",
         "children": [
           {
-            "id": "ad5f0171bb4ec722",
+            "id": "f00a115569824ef7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识碎片/事件循环.md",
+                "file": "知识碎片/浏览器渲染.md",
                 "mode": "preview",
                 "source": true
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识碎片/事件循环.md",
+                "file": "知识碎片/浏览器渲染.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识碎片/事件循环.md",
+                "file": "知识碎片/浏览器渲染.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识碎片/事件循环.md"
+                "file": "知识碎片/浏览器渲染.md"
               }
             }
           }
@@ -164,10 +164,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ad5f0171bb4ec722",
+  "active": "f00a115569824ef7",
   "lastOpenFiles": [
-    "未命名.md",
     "知识碎片/事件循环.md",
+    "知识碎片/浏览器渲染.md",
+    "未命名.md",
     "知识碎片/服务端渲染（SSR）.md",
     "知识碎片/Serverless SSR.md",
     "知识碎片/ES2015-2022.md",
