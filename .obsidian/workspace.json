@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "d657770fec12396c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad5f0171bb4ec722",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识碎片/事件循环.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +164,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5ba91d45a989e749",
+  "active": "ad5f0171bb4ec722",
   "lastOpenFiles": [
     "未命名.md",
     "知识碎片/事件循环.md",
