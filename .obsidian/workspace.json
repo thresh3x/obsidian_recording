@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识碎片/服务端渲染（SSR）.md",
+                "file": "知识碎片/面试笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识碎片/服务端渲染（SSR）.md",
+                "file": "知识碎片/面试笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识碎片/服务端渲染（SSR）.md",
+                "file": "知识碎片/面试笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识碎片/服务端渲染（SSR）.md"
+                "file": "知识碎片/面试笔记.md"
               }
             }
           }
@@ -166,6 +166,8 @@
   },
   "active": "5ba91d45a989e749",
   "lastOpenFiles": [
+    "知识碎片/服务端渲染（SSR）.md",
+    "知识碎片/面试笔记.md",
     "知识碎片/Serverless SSR.md",
     "知识碎片/ES2015-2022.md",
     "create a link.md",
@@ -175,7 +177,6 @@
     "知识碎片/浏览器渲染.md",
     "知识碎片/事件循环.md",
     "未命名.md",
-    "知识碎片/服务端渲染（SSR）.md",
     "未命名.canvas",
     "v2-14d24e00f8941d04d3e082b1cb61a170_720w.webp",
     "知识碎片/未命名.canvas",
