@@ -22,18 +22,18 @@
         ]
       },
       {
-        "id": "91c2f04d31d79d2b",
+        "id": "0369daa336f614df",
         "type": "tabs",
         "children": [
           {
-            "id": "0c73a54ba52de134",
+            "id": "feaef24e06579f3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识碎片/面试笔记.md",
-                "mode": "source",
-                "source": false
+                "file": "知识碎片/前端网络.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -164,7 +164,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5ba91d45a989e749",
+  "active": "feaef24e06579f3d",
   "lastOpenFiles": [
     "知识碎片/面试笔记.md",
     "知识碎片/前端网络.md",
