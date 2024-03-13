@@ -52,12 +52,29 @@ web worker是运行在后台的JS。
 为js创建多线程环境。js在主线程中执行，new一个子线程在后台执行。worker完成任务返回到主线程，子线程代码不会造成主线程的阻塞。有的如Safari，IE浏览器不支持。
 w = new Worker("worker134.js")
 w.onmessage = function(message) {}
+w.postmessage('134')
 w.terminate()
 Web Worker可分为专用线程Dedicated Worker 和共享线程Shared Worker。
 专用线程Dedicated Worker 只能从创建它的脚本中访问，而共享线程Shared Worker可以被多个脚本访问。
 **Web Worker有五个限制**
 	1. 同源限制，分配给worker线程的脚本必须与主线程的脚本文件同源
-	2. DOM限制，worker只能读取navigator对象和location对象，无法使用window，document，parent对象。因为worker所在的全局对象和主线程不同。worker执行上下文名称是self。
+	2. DOM限制，worker只能读取navigator对象和location对象，无法使用window，document，parent对象。因为worker所在的全局对象和主线程不同。
 	3. 通信联系，主线程和子线程无法直接通信，因为它们不在同一个环境。只能使用postMessage和onMessage，并且在数据传输时候，Worker使用的是拷贝的方法。
 	4. 脚本限制，worker线程不能执行alert()和confirm()方法，但可以使用XMLHttpRequest发送AJAX请求。
 	5. 文件限制，worker线程不能读取本地文件，加载脚本必须来源于网络。
+**Worker中书写**
+worker执行上下文名称是self。
+加载其他文件importScript(‘13.js’, '127.js')
+
+#### 9Web Storage
+HTML4中用cookie，在用户端保存数据，但内存只有4kb，操作复杂，发送数据时一同发送。
+Web Storage一般有5Mb，
+1. localStorage
+2. sessionStorage
+相同点
+1. 数据都保存在客户端
+2. 同源
+3. 操作方法相同
+不同点
+1. 生命周期不同。localStorage是永久保存，除非用户手动清除。sessionStorage是临时保存，关闭浏览器即数据消失。
+2. 作用域不同。localStorage信息可以在相同浏览器中同源的不同也买你
