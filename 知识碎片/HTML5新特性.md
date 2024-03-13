@@ -1,10 +1,10 @@
-#### 语义标签
+#### 1语义标签
 header，nav，section，aside，artical，footer
 1. 有利于SEO（search engine optimization），有助于网页爬虫爬取更多信息，因为爬虫是依赖于标签来确定上下文和各个关键字的权重。
 2. 方便其他设备的解析（屏幕阅读器，移动设备）
 3. 增加代码可读性，遵循规范，减少差异化
 
-#### 增强型表单
+#### 2增强型表单
 ###### 新的form表单类型
 1. 邮箱验证 input type="email"
 2. 数值输入 type=“number” max="" min =""
@@ -22,7 +22,7 @@ header，nav，section，aside，artical，footer
 4. autocomplete 默认是on，email默认是off。功能是提示写过的信息，一定要和name一起用
 5. min和max
 
-#### 视频和音频
+#### 3视频和音频
 ###### video 
 	支持ogg，MP4，webm。 可以嵌套多个video标签，用于表现一个播放源的多种播放方式，第一个视频格式不支持会轮到下一个标签。
 - 方法：play(), pause(), load()
@@ -31,3 +31,17 @@ header，nav，section，aside，artical，footer
 	支持格式ogg，Wav，mp3。可以嵌套多个video标签。
 - 属性：autoplay，controls，loop，muted，poster
 
+#### 4canvas绘图
+js使用dom获取对象，使用方法getContext("2d")获取上下文，创建context对象，获取2d绘制环境。
+通过js脚本控制绘制。
+
+#### 5svg绘图
+使用xml描述2d图形的语言。xml功能是传输和储存数据。
+svg比起canvas不容易失帧，更稳定。
+
+#### 6地理位置
+navigator.geolocation.getCurrentPosition() 
+return latitude, longitude, altitude, heading, speed
+
+#### 7拖放API
+一个元素默认是拖拽属性是draggable="false"
