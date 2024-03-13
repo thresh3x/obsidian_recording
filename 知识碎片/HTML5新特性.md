@@ -77,4 +77,19 @@ Web Storage一般有5Mb，
 3. 操作方法相同
 不同点
 1. 生命周期不同。localStorage是永久保存，除非用户手动清除。sessionStorage是临时保存，关闭浏览器即数据消失。
-2. 作用域不同。localStorage信息可以在相同浏览器中同源的不同也买你
+2. 作用域不同。localStorage信息可以在相同浏览器中同源的不同页面，不同标签，不同窗口使用。sessionStorage不行。
+特点：值可以是任何数据类型，只要是key/value形式。
+方法：
+- setItem(key, value)，其实还可以直接属性赋值，但是不规范
+- getItem(key)
+- clear()
+- removeItem(key)
+- key(n)
+
+#### 10Web Socket
+在WebSocket出现之前，我们想要实现实时通信，比较通常的方式是Ajax轮询，即在特定时间间隔由浏览器发出请求，服务器放回最新数据。这样的轮询有缺陷：
+- HTTP请求的头部信息比较多，但有效信息只占很小一部分，导致带宽浪费
+- 
+
+w3c上是这样解释的：Web Socket是HTML5开始提供的一种在单个TCP连接上进行全双工通讯的协议。浏览器和服务器只需要一个握手动作，然后，浏览器和服务器之间就形成了一条快速通道。连接后，你可以使用send方法给服务器发送数据，onmessage事件接收数据。
+Web Soceket协议本质上是基于TCP的协议，在建立连接时，发送一个HTTP请求，附加头中有“Upgrade：WebSocket”字段表明这是一个申请协议升级的HTTP请求。
