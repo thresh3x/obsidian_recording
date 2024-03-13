@@ -45,4 +45,9 @@ transition：多个属性，时间，效果曲线ease，延迟时间
 - linear-gradient
 - radial-gradient
 
-#### 7flex, grid布局
+#### 7flex布局
+
+#### 8媒体查询
+@media(max-width: 600px) {
+
+}
