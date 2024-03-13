@@ -45,3 +45,9 @@ return latitude, longitude, altitude, heading, speed
 
 #### 7拖放API
 一个元素默认是拖拽属性是draggable="false"
+监听被拖放对象dragstart事件记录拖拽对象引用。默认是不能把元素放置到其他元素中，所以需要在其他元素添加事件监听dragover里面preventDefault，监听drop删除原来拖拽对象，在新的元素中加入拖拽对象引用。
+
+#### 8Web Worker
+web worker是运行在后台的JS。
+为js创建多线程环境。js在主线程中执行，new一个子线程在后台执行。worker完成任务返回到主线程，子线程代码不会造成主线程的阻塞。有的如Safari，IE浏览器不支持。
+w = new Worker("worker134.js")
