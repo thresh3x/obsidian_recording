@@ -20,4 +20,14 @@ header，nav，section，aside，artical，footer
 2. required
 3. autofocus
 4. autocomplete 默认是on，email默认是off。功能是提示写过的信息，一定要和name一起用
-5. 
+5. min和max
+
+#### 视频和音频
+###### video 
+	支持ogg，MP4，webm。 可以嵌套多个video标签，用于表现一个播放源的多种播放方式，第一个视频格式不支持会轮到下一个标签。
+- 方法：play(), pause(), load()
+- 属性：width, height, controls(boolean)
+###### audio
+	支持格式ogg，Wav，mp3。可以嵌套多个video标签。
+- 属性：autoplay，controls，loop，muted，poster
+
