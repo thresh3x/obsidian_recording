@@ -89,7 +89,14 @@ Web Storage一般有5Mb，
 #### 10Web Socket
 在WebSocket出现之前，我们想要实现实时通信，比较通常的方式是Ajax轮询，即在特定时间间隔由浏览器发出请求，服务器放回最新数据。这样的轮询有缺陷：
 - HTTP请求的头部信息比较多，但有效信息只占很小一部分，导致带宽浪费
-- 
+- 服务器被动接收浏览器请求然后响应，数据没有更新时仍然要接收并处理数据，导致服务器CPU占用。
+Web Socket解决了上述问题
+- Web Socket头部信息只有2Bytes左右
+- Web Socket支持服务器主动推送消息，更好的支持实时通信
 
 w3c上是这样解释的：Web Socket是HTML5开始提供的一种在单个TCP连接上进行全双工通讯的协议。浏览器和服务器只需要一个握手动作，然后，浏览器和服务器之间就形成了一条快速通道。连接后，你可以使用send方法给服务器发送数据，onmessage事件接收数据。
 Web Soceket协议本质上是基于TCP的协议，在建立连接时，发送一个HTTP请求，附加头中有“Upgrade：WebSocket”字段表明这是一个申请协议升级的HTTP请求。
+let socket = new WebSocket(url, \[protocal])
+socket.send()
+socket.onmessage
+socket.close()
