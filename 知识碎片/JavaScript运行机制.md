@@ -15,5 +15,9 @@ script text -- parser --> AST抽象语法树 -- Ignition解释器 --> Byte code�
 Code代码通过Lexer进行词法分析生成tokens，tokens进行语法分析Parser生成AST，AST进行语义分析SemanticAnalysis生成analyzedAst，接着通过代码生成器CodeGeneration生成New Code。
 
 ###### AST
+将代码code转化成一个json对象。
 
+###### 执行上下文
+堆 Heap（很多种），栈 Stack（先进后出）
+所有代码都有一个Global Execution Context全局执行上下文，
 
