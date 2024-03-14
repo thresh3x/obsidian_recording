@@ -32,7 +32,5 @@ Code代码通过Lexer进行词法分析生成tokens，tokens进行语法分析Pa
 - Cheney算法，是目前用在V8新生代垃圾回收
 
 
-- 新生代
-- 老生代
 
 
