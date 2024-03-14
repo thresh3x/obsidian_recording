@@ -9,5 +9,11 @@ JavaSctipt解释以后，CPU来执行。执行后渲染至页面。
 - SpiderMonkey(Mozilla)
 
 ###### V8引擎
-script text -- parser --> AST -- Ignition --> Byte code -- execution --> 执行后会feedback反馈回去，反作用于解释器，比如对于多次执行的代码进行缓存
+script text -- parser --> AST抽象语法树 -- Ignition解释器 --> Byte code字节码 -- execution --> 执行后会feedback反馈回去，反作用于解释器(比如对于多次执行的代码和数据类型，反馈发送到优化编译器，产生高度优化的机器代码，内联缓存技术inline cashing)，这叫做Deoptimization(去优化)优化。
+
+###### Compiler
+Code代码通过Lexer进行词法分析生成tokens，tokens进行语法分析Parser生成AST，AST进行语义分析SemanticAnalysis生成analyzedAst，接着通过代码生成器CodeGeneration生成New Code。
+
+###### AST
+
 
