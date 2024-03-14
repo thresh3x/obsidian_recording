@@ -20,6 +20,6 @@ Code代码通过Lexer进行词法分析生成tokens，tokens进行语法分析Pa
 ###### 执行上下文
 堆 Heap（很多种），栈 Stack（先进后出）
 所有代码都有一个Global Execution Context全局执行上下文，一个{}一个作用域，遇到一个作用域便把该作用域上下文压栈，执行完便出栈。
-var声明的变量会储存在VariableEnvironment变量环境，此时变量都赋值为undefined，执行前会提前扫描，找到var声明的变量一同放入变量环境（**也就是变量提升**）。
-let声明的变量会储存在LexicalEnvironment词法环境中的一块区域（也就是**暂时性死区**，声明前读取会报错）。执行到声明代码之前，词法环境不会给其赋值nothing，is not defined。嵌套的作用域会形成嵌套的
+
+在js代码执行过程中，函数，代码需要分配存储空间，这时候会有一个对象来表示当前的执行上下文。一个函数以及{}会产生执行上下文。var声明的变量会储存在上下文中的VariableEnvironment变量环境赋值为undefined，执行前会提前扫描，找到var声明的变量一同放入变量环境（**也就是变量提升**）。let声明的变量会储存在LexicalEnvironment词法环境中的一块区域（也就是**暂时性死区**，声明前读取会报错）。执行到声明代码之前，词法环境不会给其赋值nothing，is not defined。嵌套的作用域会形成嵌套的词法环境中的区域，读取时从内到外。
 
