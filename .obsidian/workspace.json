@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "f7c172a168cce2dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de195c2b07e2d114",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识碎片/算法.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +164,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5ba91d45a989e749",
+  "active": "de195c2b07e2d114",
   "lastOpenFiles": [
     "知识碎片/JavaScript运行机制.md",
     "知识碎片/算法.md",
