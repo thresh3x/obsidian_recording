@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识碎片/事件循环.md",
+                "file": "知识碎片/JavaScript运行机制.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识碎片/事件循环.md",
+                "file": "知识碎片/JavaScript运行机制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识碎片/事件循环.md",
+                "file": "知识碎片/JavaScript运行机制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识碎片/事件循环.md"
+                "file": "知识碎片/JavaScript运行机制.md"
               }
             }
           }
@@ -148,20 +148,20 @@
   },
   "active": "5ba91d45a989e749",
   "lastOpenFiles": [
-    "知识碎片/前端网络.md",
+    "知识碎片/ES2015-2022.md",
+    "知识碎片/CSS3新特性.md",
+    "知识碎片/算法.md",
     "知识碎片/事件循环.md",
+    "知识碎片/前端网络.md",
     "知识碎片/浏览器渲染.md",
     "知识碎片/Serverless SSR.md",
     "知识碎片/服务端渲染（SSR）.md",
-    "知识碎片/算法.md",
     "知识碎片/JavaScript运行机制.md",
     "未命名.canvas",
     "2024-03-15.md",
     "create a link.md",
     "Welcome.md",
     "知识碎片/HTML5新特性.md",
-    "知识碎片/CSS3新特性.md",
-    "知识碎片/ES2015-2022.md",
     "知识碎片/面试笔记.md",
     "64e1df02f3ff461b9712abaa5e7ecf45~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp",
     "Pasted image 20240219160017.png",
