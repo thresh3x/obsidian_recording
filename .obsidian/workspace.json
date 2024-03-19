@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识碎片/服务端渲染（SSR）.md",
+                "file": "知识碎片/Serverless SSR.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识碎片/服务端渲染（SSR）.md",
+                "file": "知识碎片/Serverless SSR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识碎片/服务端渲染（SSR）.md",
+                "file": "知识碎片/Serverless SSR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识碎片/服务端渲染（SSR）.md"
+                "file": "知识碎片/Serverless SSR.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "5ba91d45a989e749",
   "lastOpenFiles": [
-    "知识碎片/算法.md",
     "知识碎片/服务端渲染（SSR）.md",
+    "知识碎片/算法.md",
     "知识碎片/JavaScript运行机制.md",
     "未命名.canvas",
     "2024-03-15.md",
