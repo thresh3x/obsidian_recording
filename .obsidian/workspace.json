@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b55ba38b738424d3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20240324154422.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识碎片/面试笔记.md",
+                "file": "Pasted image 20240324154422.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识碎片/面试笔记.md",
+                "file": "Pasted image 20240324154422.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识碎片/面试笔记.md"
+                "file": "Pasted image 20240324154422.png"
               }
             }
           }
@@ -146,10 +157,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5ba91d45a989e749",
+  "active": "b55ba38b738424d3",
   "lastOpenFiles": [
-    "Pasted image 20240324154422.png",
     "知识碎片/面试笔记.md",
+    "Pasted image 20240324154422.png",
     "知识碎片/前端网络.md",
     "知识碎片/浏览器渲染.md",
     "知识碎片/设计模式.md",
