@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识碎片/CSS3新特性.md",
+                "file": "知识碎片/HTML5新特性.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识碎片/CSS3新特性.md",
+                "file": "知识碎片/HTML5新特性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识碎片/CSS3新特性.md",
+                "file": "知识碎片/HTML5新特性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识碎片/CSS3新特性.md"
+                "file": "知识碎片/HTML5新特性.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   "active": "b55ba38b738424d3",
   "lastOpenFiles": [
     "知识碎片/ES2015-2022.md",
+    "知识碎片/CSS3新特性.md",
     "知识碎片/JavaScript运行机制.md",
     "知识碎片/HTML5新特性.md",
     "知识碎片/Serverless SSR.md",
@@ -173,7 +174,6 @@
     "知识碎片/浏览器渲染.md",
     "知识碎片/事件循环.md",
     "知识碎片/服务端渲染（SSR）.md",
-    "知识碎片/CSS3新特性.md",
     "64e1df02f3ff461b9712abaa5e7ecf45~tplv-k3u1fbpfcp-zoom-in-crop-mark_1512_0_0_0.webp",
     "未命名.canvas",
     "2024-03-15.md",
