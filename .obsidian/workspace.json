@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识碎片/TypeScript.md",
+                "file": "知识碎片/Vue.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识碎片/TypeScript.md",
+                "file": "知识碎片/Vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识碎片/TypeScript.md",
+                "file": "知识碎片/Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识碎片/TypeScript.md"
+                "file": "知识碎片/Vue.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "c1ef89e75d03f6f3",
   "lastOpenFiles": [
+    "知识碎片/TypeScript.md",
+    "知识碎片/Vue.md",
     "知识碎片/设计模式.md",
     "知识碎片/事件循环.md",
-    "知识碎片/TypeScript.md",
     "知识碎片/面试笔记.md",
     "知识碎片/前端网络.md",
     "知识碎片/HTML5新特性.md",
