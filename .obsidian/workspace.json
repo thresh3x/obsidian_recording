@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识碎片/设计模式.md",
+                "file": "知识碎片/TypeScript.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识碎片/设计模式.md",
+                "file": "知识碎片/TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识碎片/设计模式.md",
+                "file": "知识碎片/TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识碎片/设计模式.md"
+                "file": "知识碎片/TypeScript.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "c1ef89e75d03f6f3",
   "lastOpenFiles": [
+    "知识碎片/设计模式.md",
     "知识碎片/事件循环.md",
     "知识碎片/TypeScript.md",
     "知识碎片/面试笔记.md",
@@ -158,7 +159,6 @@
     "知识碎片/ES2015-2022.md",
     "知识碎片/CSS3新特性.md",
     "知识碎片/算法.md",
-    "知识碎片/设计模式.md",
     "知识碎片/Serverless SSR.md",
     "知识碎片/服务端渲染（SSR）.md",
     "Pasted image 20240324154422.png",
